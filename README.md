@@ -1,4 +1,4 @@
-# Titanic Survival Prediction
+# Titanic Survived Prediction
  
  
 ## 1. Project Overview
