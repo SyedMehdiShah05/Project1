@@ -1,13 +1,13 @@
- ****Titanic Survival Prediction****
+# Titanic Survival Prediction
  
  
-**1. Project Overview**
+## 1. Project Overview
 This project aims to build a machine learning model that predicts which passengers survived the Titanic shipwreck. By analyzing the famous Kaggle Titanic dataset,
 the project identifies patterns in passenger data (such as age, gender, ticket class, and fare) to classify survival outcomes.
 
 The goal is to demonstrate the end-to-end data science workflow, from data cleaning and exploratory analysis to model training and evaluation.
 
-**2. Technologies & Tools Used**
+## 2. Technologies & Tools Used
 This project was developed using **Python** and its data science ecosystem.
 
 * **Language:** Python 3.x
@@ -26,12 +26,12 @@ This project was developed using **Python** and its data science ecosystem.
 * `Scikit-Learn`: For model building, preprocessing, and evaluation.
 
 
-**3. Dataset**
+## 3. Dataset
 The dataset used is the **Titanic: Machine Learning from Disaster** competition dataset from Kaggle.
 
 **Train.csv:** Used to train the model (contains features + survival label).
 
-**4. Methodology**
+## 4. Methodology
 The project follows a standard Data Science lifecycle:
 
 1. **Data Acquisition:** Loading the train and test datasets.
@@ -41,13 +41,13 @@ The project follows a standard Data Science lifecycle:
 * Handled missing values in `Age`, `Cabin`, and `Embarked` columns.
 
 
-3. **Data Preprocessing:**
+## 3. Data Preprocessing:
 * **Feature Engineering:** Created new features like `FamilySize` (SibSp + Parch) and extracted `Title` from names.
 * **Encoding:** Converted categorical variables (Sex, Embarked) into numerical values using One-Hot Encoding/Label Encoding.
 * **Scaling:** Standardized numerical features like `Fare` and `Age`.
 
 
-4. **Model Selection:**
+## 4. Model Selection:
 Tried multiple algorithms to find the best fit:
 * Logistic Regression
 * Decision Tree Classifier
@@ -57,20 +57,20 @@ Tried multiple algorithms to find the best fit:
 
 
 
-**5. Results & Evaluation**
+## 5. Results & Evaluation
 The models were evaluated based on **Accuracy Score** and **Confusion Matrix**.
 
-* **Best Model:** [e.g., Random Forest Classifier]
-* **Accuracy:** [e.g., 82.5%]
+* **Best Model:** [Random Forest Classifier]
+* **Accuracy:** [82.5%]
 
 | Model | Accuracy Score |
 | --- | --- |
-| Logistic Regression | [e.g., 79%] |
-| Decision Tree | [e.g., 76%] |
-| **Random Forest** | **[e.g., 82%]** |
+| Logistic Regression | [79%] |
+| Decision Tree | [76%] |
+| **Random Forest** | **[82%]** |
 
 > **Key Insight:** Gender and Passenger Class were the most significant factors in predicting survival. Women and 1st-class passengers had a much higher chance of survival.
 
  
-**6. Author** **Syed Mehdi Shah**
+## 6. Author **Syed Mehdi Shah**
  
